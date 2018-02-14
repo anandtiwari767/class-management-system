@@ -1,0 +1,48 @@
+
+ul li{
+float : left;
+padding : 8.5px;
+background :#206020;
+margin-left: 8px;
+margin-top:0px;
+color: white;
+list-style:none;
+height: 15px;
+border-radius:3.5px;
+left: 0px;
+}
+ul li a:hover{
+	color: #f1f1f1;
+	font-size:18px;
+}
+a{
+	display: block;
+text-decoration: none;
+color:red;
+}
+a:link{
+	color:black;
+	
+}
+
+#menus{
+	position:fixed;
+	width:1300px;
+	height: 32px;
+
+}
+#menus ul{
+	margin-left:420px;
+	margin-right:auto;
+}
+#photo{
+	margin-top:0px;
+	width:auto;
+	height: auto;
+	margin-right:auto;}
+#footer{
+		margin-top:400px;
+		background-color:grey;
+		width:1300px;
+		height:auto;
+		margin-right:auto;}
