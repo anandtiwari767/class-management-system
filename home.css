@@ -1,8 +1,8 @@
 
+
 ul li{
 float : left;
 padding : 8.5px;
-background :#206020;
 margin-left: 8px;
 margin-top:0px;
 color: white;
@@ -11,19 +11,18 @@ height: 15px;
 border-radius:3.5px;
 left: 0px;
 }
-ul li a:hover{
+ul li .styles:hover{
 	color: #f1f1f1;
 	font-size:18px;
 }
-a{
+.styles{
 	display: block;
 text-decoration: none;
-color:red;
+color: #f1f1f1;
+border:2px solid white;
+padding: 2px;
 }
-a:link{
-	color:black;
-	
-}
+
 
 #menus{
 	position:fixed;
@@ -32,17 +31,41 @@ a:link{
 
 }
 #menus ul{
-	margin-left:420px;
+	margin-left:644px;
 	margin-right:auto;
 }
 #photo{
 	margin-top:0px;
 	width:auto;
 	height: auto;
-	margin-right:auto;}
-#footer{
-		margin-top:400px;
-		background-color:grey;
-		width:1300px;
-		height:auto;
-		margin-right:auto;}
+	margin-right:auto;
+}
+#registration{
+	
+	width: 400px;
+	height:150px;
+	margin-top: 280px;	
+	margin-left: 220px;
+	border :2px solid white; 
+}
+.login{
+	margin-top: 40px;
+	margin-left: 50px;	
+	width: 130px;
+	height: 30px;
+	background-color:transparent;
+	border-color: white;
+}
+.login:hover{
+	
+		background-color: darkorange;
+		transition: all 0.3s ease-in;
+	 
+}
+#text{
+	margin-left: 130px;
+	margin-top: 2px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: white;
+
+}

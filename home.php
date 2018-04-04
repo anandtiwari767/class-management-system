@@ -6,28 +6,27 @@
 <title>HOME</title>
 <link rel="stylesheet" href="home.css">
 </head>
-<body bgcolor="#eaeae1">
+<body bgcolor="#60605e">
+<div id="header"> 
 <div id="menus"><!-- division of menus   -->
 <ul>
-  <li><a href="#">NEWS</a></li>
-  <li><a href="#">MANAGE ATTENDENCE</a></li>
-  <li><a href="#">QUERY</a></li>
-  <li><a href="#">VOTING</a></li>
-  <li><a href="#">CONTACT</a></li>
-  <li><a href="#">ABOUT US</a></li>
-  <li><a href="#">SIGN UP</a></li>
-	<li><a href="#">LOGIN</a></li>
+  <li><a href="#" class="styles">WORKS</a></li>
+  <li><a href="#" class="styles">SERVICES</a></li>
+  
+  <li><a href="#" class="styles">CONTACT</a></li>
+  <li><a href="#"class="styles">ABOUT US</a></li>
+  
   </ul>
+  <div id="registration">
+    <h1 id="text">LETS GO:</h1>
+<a href="login.php"><button style='margin-right:16px' class="login" >LOGIN</button></a>
+<a href="registrationform.php"><button style='margin-right:16px' class="login" onclick >SIGNUP</button></a>
 </div>
-<div id="photo">
-<img src="student-cover-photo.jpg" width="1300px" height="500px"/>
 </div>
+
 <div>
 
 </div>
-<div id="footer">
-<h4 align="center">Maintained by ANAND TIWARI </h4>
-<h5 align="center">COPY RIGHTS ARE RESERVERD BY TECHACHE</h5>
-</div>
+
 </body>
 </html>
